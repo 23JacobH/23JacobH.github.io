@@ -12,7 +12,6 @@ body, html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('your-background-image.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
 }
