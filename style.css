@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Graphik', sans-serif; /* Replace with your Graphik font if available */
+    font-family: 'Graphik', sans-serif;
     color: #333;
 }
 
@@ -16,6 +16,10 @@ body, html {
     background-position: center;
 }
 
+h1 {
+    margin-bottom: 0;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -24,6 +28,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 10px;
+    padding-top: 0;
 }
 
 nav ul li a {
@@ -35,4 +40,8 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #f0f0f0;
+}
+
+.home-page h1, .home-page nav ul li a {
+    color: #fff;
 }
