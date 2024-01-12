@@ -17,6 +17,7 @@ body, html {
 }
 
 h1 {
+    color: #fff;
     margin-bottom: 0;
 }
 
@@ -40,8 +41,4 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #f0f0f0;
-}
-
-.home-page h1, .home-page nav ul li a {
-    color: #fff;
 }
