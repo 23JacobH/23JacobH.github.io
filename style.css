@@ -35,13 +35,7 @@ body, html {
     padding-top: 0;
 }
 
-.menu nav ul li {
-    display: inline;
-    margin: 10px;
-    padding-top: 0;
-}
-
-nav ul li a {
+.home nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
@@ -52,16 +46,35 @@ nav ul li a {
     color: #333;
 }
 
+.menu nav ul li {
+    display: inline;
+    margin: 10px;
+    padding-top: 0;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    transition: color 0.2s ease;
+}
+
+.menu nav ul li a:hover {
+    color: #888;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333; /* Change as needed */
-    color: white;
+    background-color: #fff; 
+    color: #333;
     padding: 10px 20px;
 }
 
 .menu-item {
+    text-decoration: none;
+    color: #333;
     font-size: 20px;
     font-weight: bold;
 }
