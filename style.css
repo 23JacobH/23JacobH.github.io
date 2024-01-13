@@ -60,7 +60,7 @@ body, html {
 }
 
 .menu nav ul li a:hover {
-    color: #888;
+    color: #999;
 }
 
 .menu {
@@ -77,4 +77,9 @@ body, html {
     color: #333;
     font-size: 20px;
     font-weight: bold;
+}
+
+.menu-item:visited {
+    text-decoration: none;
+    color: #333;
 }
