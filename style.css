@@ -60,7 +60,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
+    display: in;
 }
 
 .menu nav ul li {
@@ -80,7 +80,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 }
 
 .menu {
-    display: inline;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff; 
