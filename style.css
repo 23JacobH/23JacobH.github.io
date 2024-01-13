@@ -74,7 +74,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
     background-color: #fff; 
     color: #333;
     padding: 0px 20px;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #ccc;
 }
 
 .menu-item a {
