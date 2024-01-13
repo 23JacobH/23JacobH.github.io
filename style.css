@@ -7,6 +7,10 @@ body, html {
     background-color: white;
 }
 
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    text-decoration:none;
+  }
+
 .container {
     height: 100%;
     display: flex;
