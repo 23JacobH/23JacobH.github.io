@@ -25,7 +25,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 .home h1 {
     color: #fff;
     font-size: 49px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .home nav ul {
