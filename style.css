@@ -7,10 +7,6 @@ body, html {
     background-color: white;
 }
 
-a, a:link, a:visited, a:focus, a:hover, a:active{
-    text-decoration:none;
-  }
-
 .container {
     height: 100%;
     display: flex;
@@ -40,7 +36,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 }
 
 .home nav ul li a {
-    text-decoration: none;
     color: #fff;
     font-size: 20px;
     transition: color 0.2s ease;
@@ -57,7 +52,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 }
 
 .menu nav ul li a {
-    text-decoration: none;
     color: #333;
     font-size: 20px;
     transition: color 0.2s ease;
@@ -78,8 +72,11 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 }
 
 .menu-item a {
-    text-decoration: none;
     color: #333;
     font-size: 30px;
     align-items: center;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    text-decoration:none;
 }
