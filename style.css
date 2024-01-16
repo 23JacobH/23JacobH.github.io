@@ -102,6 +102,18 @@ body, html {
     text-align: left;
 }
 
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .portrait, .about-text {
+        flex: none;
+        max-width: 100%;
+    }
+
+}
+
 a, a:link, a:visited, a:focus, a:hover, a:active{
     text-decoration:none;
 }
