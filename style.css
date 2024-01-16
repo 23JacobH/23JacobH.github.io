@@ -86,7 +86,6 @@ body, html {
 }
 
 .portrait, .about-text {
-    flex: 1;
     padding: 0 10px;
 }
 
@@ -98,7 +97,8 @@ body, html {
 }
 
 .about-text {
-    max-width: 700px;
+    flex: 1;
+    max-width: 420px;
     text-align: left;
 }
 
