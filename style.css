@@ -20,7 +20,14 @@ body, html {
 }
 
 .home-container {
-    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .home h1 {
