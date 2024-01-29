@@ -155,6 +155,13 @@ body, html {
         max-width: 100%;
         max-height: auto;
     }
+
+    .photo-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 139px 0px 0px;
+    }
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active{
