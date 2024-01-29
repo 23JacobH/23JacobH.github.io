@@ -41,7 +41,7 @@ function populateGallery() {
         const photoItem = document.createElement('div');
         photoItem.className = 'photo-item';
         photoItem.innerHTML = `
-            <img src="DSC${photo.number}.JPG" alt="${photo.caption}">
+            <img src="images/DSC${photo.number}.jpg" alt="${photo.caption}">
             <p class="caption">${photo.caption}</p>
         `;
         gallery.appendChild(photoItem);
