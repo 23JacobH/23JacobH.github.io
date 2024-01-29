@@ -24,7 +24,7 @@ const photos = [
     { number: "02979", caption: "wynwood walls" },
     { number: "03012", caption: "miami design district" },
     { number: "03110", caption: "little havana, miami" },
-    { number: "03126", caption: "domino park miami" },
+    { number: "03126", caption: "domino park, miami" },
     { number: "03210", caption: "everglades" },
     { number: "03246", caption: "everglades" },
     { number: "03332", caption: "vizcaya museum & gardens" },
