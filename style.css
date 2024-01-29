@@ -141,6 +141,20 @@ body, html {
     margin-top: 10px;
 }
 
+.menu, #dropdown-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+#hamburger-icon {
+    display: none; /* Hide by default */
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .about-container {
         flex-direction: column;
@@ -159,6 +173,14 @@ body, html {
 
     .photo-gallery {
         padding: 139px 0px 0px;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+    
+    .menu {
+        display: none;
     }
 }
 

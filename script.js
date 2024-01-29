@@ -48,4 +48,13 @@ function populateGallery() {
     });
 }
 
+function toggleDropdownMenu() {
+    var menu = document.getElementById("dropdown-menu");
+    if (menu.classList.contains("hidden")) {
+        menu.classList.remove("hidden");
+    } else {
+        menu.classList.add("hidden");
+    }
+}
+
 populateGallery();
