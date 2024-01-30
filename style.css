@@ -144,7 +144,7 @@ body, html {
 }
 
 #hamburger-icon {
-    display: none; /* Hide by default */
+    display: none;
     cursor: pointer;
 }
 
@@ -155,7 +155,6 @@ body, html {
 @media (max-width: 768px) {
     .about-container {
         flex-direction: column;
-        padding: 139px 0px 0px;
     }
 
     .portrait, .about-text {
@@ -166,10 +165,6 @@ body, html {
     .photo-item img {
         max-width: 100%;
         max-height: auto;
-    }
-
-    .photo-gallery {
-        padding: 139px 0px 0px;
     }
 
     #hamburger-icon {
