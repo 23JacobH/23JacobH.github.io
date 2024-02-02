@@ -57,6 +57,10 @@ body, html {
     color: #333;
 }
 
+.dropdown-menu ul {
+    list-style-type: none;
+}
+
 .menu nav ul li {
     display: inline;
     margin: 10px;
