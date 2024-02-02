@@ -163,6 +163,7 @@ body, html {
     justify-content: center;
     margin: 20px auto;
     max-width: 900px;
+    padding: 20px 0px;
 }
 
 .project-text p:first-child {
@@ -174,8 +175,8 @@ body, html {
 }
 
 .project-img img {
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 420px;
     max-width: 300px;
     float: right;
 }
