@@ -158,32 +158,29 @@ body, html {
 }
 
 .project-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
     align-items: center;
-    justify-content: center;
     margin: 20px auto;
     max-width: 1000px;
-    padding: 20px 0px;
+    padding: 20px 0;
 }
 
-.project-text p:first-child {
-    font-size: 20px;
-}
-
-.project-img, .project-text {
-    padding: 0 10px;
+.project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
 }
 
 .project-img img {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
-    float: right;
+    width: auto;
+    max-height: 400px;
+    max-width: 100%;
 }
 
 .project-text {
-    flex: 1;
-    max-width: 420px;
     text-align: left;
 }
 
